@@ -1,0 +1,33 @@
+{
+  "name": "adoptme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{html,css,js,jsx}\"",
+    "format:check": "prettier --check \"src/**/*.{html,css,js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "dev": "parcel src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-prettier": "^8.5.0",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "alias": {
+    "process": {
+      "global": "{}"
+    }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
